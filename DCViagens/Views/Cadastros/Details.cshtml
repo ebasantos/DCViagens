@@ -1,0 +1,74 @@
+﻿@model DCViagens.Models.Cadastro
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Cadastro</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Beneficiario.EstadoCivil)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Beneficiario.EstadoCivil)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Colaborador.Senha)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Colaborador.Senha)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Parceiro.Nome)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Parceiro.Nome)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Vendedor.Nome)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Vendedor.Nome)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CIF)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CIF)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Senha)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Senha)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DataCadastro)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DataCadastro)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

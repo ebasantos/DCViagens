@@ -1,0 +1,44 @@
+﻿.footer {
+    background: linear-gradient(to right, rgb(35, 37, 38), rgb(65, 67, 69));
+}
+
+#sidebar {
+    background: rgb(35, 37, 38);
+    color: black;
+}
+
+#dcMenu {
+    display: none;
+}
+
+#content {
+    background-color: #2a7ae4;
+    /*background-color: black;*/
+}
+
+main {
+    -webkit-box-shadow: -1px 1px 31px -5px rgba(0,0,0,1);
+    -moz-box-shadow: -1px 1px 31px -5px rgba(0,0,0,1);
+    box-shadow: rgb(0, 0, 0) -1px 1px 31px -5px;
+    border: solid 2px gray;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1027px;
+    }
+}
+
+.wrapper {
+    background-color: #2a7ae4;
+}
+
+input {
+    display: block;
+    outline: none;
+    border: 1px solid gray !important;
+}

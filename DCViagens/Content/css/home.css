@@ -1,0 +1,22 @@
+﻿#title {
+    font-weight: bold;
+    font-family: "Kelly Slab";
+    font-size: 100px;
+    color: #c3cfe2;
+    text-shadow: 2px 0px 0px black, 
+                -2px 0px 0px black, 0px 2px 0px black, 0px -2px 0px red;
+}
+
+#content {
+    background-color: black;
+}
+
+#homeJumbo {
+    background-color: black;
+    background-image: url("../lib/homeback.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100%;
+    /*border: solid white 2px;*/
+}
+
